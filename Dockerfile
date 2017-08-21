@@ -1,9 +1,9 @@
 FROM alpine
-LABEL MAINTAINER=XTRadio Ops <contact@akos.me> \
+LABEL MAINTAINER="XTRadio Ops <contact@akos.me>" \
       version="0.1" \
       description="XTRadio Icecast docker image"
 
-ENV ICECAST_VERSION 2.4.3
+ENV ICECAST_VERSION 2.4.3-r4
 
 ARG user=icecast
 ARG group=icecast
