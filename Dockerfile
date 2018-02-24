@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:latest
 LABEL MAINTAINER="XTRadio Ops <contact@akos.me>" \
       version="0.1" \
       description="XTRadio Icecast docker image"
@@ -18,7 +18,7 @@ RUN mkdir -p /var/log/icecast \
     && chown -R ${user}:${group} /usr/share/icecast \
     && chown -R ${user}:${group} /var/log/icecast
 
-EXPOSE 8000
+EXPOSE 8080
 
 USER ${user}
 CMD ["icecast", "-c", "/usr/share/icecast/icecast.xml"]
