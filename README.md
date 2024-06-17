@@ -1,4 +1,4 @@
 # xtradio-icecast
 Icecast docker image
 
-[![Docker Repository on Quay](https://quay.io/repository/xtradio/icecast/status "Docker Repository on Quay")](https://quay.io/repository/xtradio/icecast)
+[![Docker Build & Push](https://github.com/xtradio/xtradio-icecast/actions/workflows/build.yaml/badge.svg?event=push))]
